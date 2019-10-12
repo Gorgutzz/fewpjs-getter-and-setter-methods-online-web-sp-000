@@ -1,4 +1,6 @@
 // Add your Circle class here
+const pi = Math.PI
+
 class Circle {
   constructor(radius) {
     this.radius = radius;
@@ -20,7 +22,4 @@ class Circle {
     this._phrase = phrase;
   }
 
-  get speak() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
-  }
 }
