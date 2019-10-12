@@ -6,16 +6,16 @@ class Circle {
     this.radius = radius;
   }
 
-  get diameter() {
-    return `${this.radius} says ${this._phrase || 'squawk'}`;
+  get diameter(){
+    return this.radius * 2
   }
 
-  get circumference() {
-    return `${this.radius} says ${this._phrase || 'squawk'}`;
+  get circumference(){
+    return 2*pi*this.radius
   }
 
-  get area() {
-    return `${this.radius} says ${this._phrase || 'squawk'}`;
+  get area(){
+    return pi*(Math.pow(this.radius,2))
   }
 
   set phrase(phrase) {
