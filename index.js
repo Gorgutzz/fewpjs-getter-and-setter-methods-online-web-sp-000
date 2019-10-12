@@ -1,7 +1,7 @@
 // Add your Circle class here
 class Circle {
-  constructor(name) {
-    this.name = name;
+  constructor(radius) {
+    this.radius = radius;
   }
 
   set phrase(phrase) {
