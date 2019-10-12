@@ -5,15 +5,15 @@ class Circle {
   }
 
   get diameter() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
+    return `${this.radius} says ${this._phrase || 'squawk'}`;
   }
 
   get circumference() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
+    return `${this.radius} says ${this._phrase || 'squawk'}`;
   }
 
   get area() {
-    return `${this.name} says ${this._phrase || 'squawk'}`;
+    return `${this.radius} says ${this._phrase || 'squawk'}`;
   }
 
   set phrase(phrase) {
