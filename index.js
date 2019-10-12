@@ -15,7 +15,7 @@ class Circle {
   }
 
   get area(){
-    return pi*(Math.pow(this.radius,2))
+    return pi * (Math.pow(this.radius,2))
   }
 
   set phrase(phrase) {
