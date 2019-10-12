@@ -12,7 +12,7 @@ class Circle {
     return `${this.name} says ${this._phrase || 'squawk'}`;
   }
 
-  get area () {
+  get area() {
     return `${this.name} says ${this._phrase || 'squawk'}`;
   }
 
