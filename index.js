@@ -18,8 +18,13 @@ class Circle {
     return pi * (Math.pow(this.radius,2))
   }
 
-  set phrase(phrase) {
-    this._phrase = phrase;
+  set diameter(diameter){
+    this.radius = diameter / 2
   }
+
+  set circumference(circumference){
+    this.radius = circumference / (2*pi)
+  }
+}
 
 }
